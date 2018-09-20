@@ -103,14 +103,6 @@ public class WebController {
 		return user;
 	}
 	
-	/**
-	 * This API tests to see if I did it right.
-	 *
-	 */
-	@RequestMapping(value = "/cs580/ping", method = RequestMethod.GET)
-	String drewAPI() {
-			return "\nDid I do it?";
-	}
 
 	/**
 	 * This API deletes the user. It uses HTTP DELETE method.
