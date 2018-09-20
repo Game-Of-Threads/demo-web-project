@@ -103,6 +103,13 @@ public class WebController {
 		return user;
 	}
 	
+    /**
+	 * This API shows that I'm lazy
+	 */
+	@RequestMapping(value = "/cs480/newPage", method = RequestMethod.GET)
+	String michaelAPI() {
+		return "I am lazy...";
+	}
 
 	/**
 	 * This API deletes the user. It uses HTTP DELETE method.
